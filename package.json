@@ -1,6 +1,6 @@
 {
   "name": "dsh-web-whale-maid",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Anime maid whale desktop pet for the DeepSeek Harness (dsh) Web UI: real-time LLM dialogues, 8 mood animations, satiety reserve system, persistent speech bubble, and mobile-adapted cupboard UI.",
   "license": "MIT",
   "type": "module",
