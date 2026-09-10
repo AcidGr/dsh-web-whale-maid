@@ -34,6 +34,9 @@ Features LLM thinking and mood linkage, 30,000 Token satiety pool, persistent sp
   - Continuous size scale slider located inside the cupboard drawer (50% to 180% range, 5% step).
   - Scales both the whale maid pet and its speech bubble simultaneously in perfect proportion.
   - Features real-time percentage display and a quick "Reset" button to 100%, with preferences persisted to disk and localStorage.
+- **Universal DSH Model Auto-Discovery**:
+  - Automatically parses and synchronizes all providers and models configured in `~/.dsh/settings.yaml` (including custom OpenAI-compatible proxies, Ollama, Claude, etc.) alongside DeepSeek official models.
+  - Automatically identifies the active `agent-default-model` as the initial preference, and refreshes models dynamically whenever the cupboard modal opens. Zero machine-specific hardcoding.
 - **Mobile-Responsive Antique Cupboard Modal**:
   - Automatically scales down proportionally based on viewport size (`min(92vw/640, 88vh/580)`) and centers smoothly on narrow mobile screens, eliminating clipping.
   - **Instant Close on Feed**: Tapping any rice item automatically closes the cupboard modal, allowing the user to watch the pet's thinking animation and response on the main screen right away.
