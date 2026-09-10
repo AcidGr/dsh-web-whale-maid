@@ -1,4 +1,4 @@
-# dsh-desktop-pet (DeepSeek Harness Desktop Pet · Anime Maid Whale)
+# dsh-web-whale-maid (DeepSeek Harness Desktop Pet · Anime Maid Whale)
 
 [![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)
 
@@ -48,7 +48,7 @@ Features LLM thinking and mood linkage, 30,000 Token satiety pool, persistent sp
 ### Method 1: Ask your DSH Agent (Easiest 🤖)
 
 Send this repository URL directly to your DSH web agent in chat:
-> "Install this plugin for me: https://github.com/AcidGr/dsh-desktop-pet"
+> "Install this plugin for me: https://github.com/AcidGr/dsh-web-whale-maid"
 
 Your DSH coding agent will automatically configure and mount the plugin.
 
@@ -57,13 +57,13 @@ Your DSH coding agent will automatically configure and mount the plugin.
 Run the following command in your terminal:
 
 ```sh
-dsh plugin --profile web add dsh-desktop-pet
+dsh plugin --profile web add dsh-web-whale-maid
 ```
 
 (Or install directly from GitHub):
 
 ```sh
-dsh plugin --profile web add github:AcidGr/dsh-desktop-pet
+dsh plugin --profile web add github:AcidGr/dsh-web-whale-maid
 ```
 
 After installation, refresh your browser.
@@ -73,13 +73,13 @@ After installation, refresh your browser.
 ```sh
 PROFILE="${DSH_HOME:-$HOME/.dsh}/profiles/web"
 mkdir -p "$PROFILE/plugins" "$PROFILE/node_modules/@dsh-profile"
-cp -r dsh-desktop-pet "$PROFILE/plugins/desktop-pet"
-ln -sfn ../../plugins/desktop-pet "$PROFILE/node_modules/@dsh-profile/desktop-pet"
+cp -r dsh-web-whale-maid "$PROFILE/plugins/whale-maid"
+ln -sfn ../../plugins/whale-maid "$PROFILE/node_modules/@dsh-profile/whale-maid"
 
 # Append to $PROFILE/cordis.patch.yml:
 # - insert:
-#     - id: desktop-pet
-#       name: '@dsh-profile/desktop-pet'
+#     - id: whale-maid
+#       name: '@dsh-profile/whale-maid'
 ```
 
 ---
@@ -99,7 +99,7 @@ ln -sfn ../../plugins/desktop-pet "$PROFILE/node_modules/@dsh-profile/desktop-pe
 ## 📂 Project Structure
 
 ```
-dsh-desktop-pet/
+dsh-web-whale-maid/
 ├── assets/
 │   ├── pet_assets.json      # Base64 assets package (sprites & cupboard background)
 │   ├── pet_sprite.png       # 8-mood HD sprite sheet (1024x2048)

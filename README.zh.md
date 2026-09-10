@@ -1,4 +1,4 @@
-# dsh-desktop-pet (DSH 桌面宠物 · 深海鲸鱼女仆)
+# dsh-web-whale-maid (DSH 桌面宠物 · 深海鲸鱼女仆)
 
 [![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)
 
@@ -48,7 +48,7 @@
 ### 方法 1：直接让你的 DSH Agent 安装（最简便 🤖）
 
 直接在 DSH 网页对话框中把本仓库地址发送给 Agent：
-> “帮我安装这个插件：https://github.com/AcidGr/dsh-desktop-pet”
+> “帮我安装这个插件：https://github.com/AcidGr/dsh-web-whale-maid”
 
 DSH 智能体将自动为你配置并加载插件。
 
@@ -57,13 +57,13 @@ DSH 智能体将自动为你配置并加载插件。
 在宿主机终端中执行：
 
 ```sh
-dsh plugin --profile web add dsh-desktop-pet
+dsh plugin --profile web add dsh-web-whale-maid
 ```
 
 （或直接从 GitHub 安装）：
 
 ```sh
-dsh plugin --profile web add github:AcidGr/dsh-desktop-pet
+dsh plugin --profile web add github:AcidGr/dsh-web-whale-maid
 ```
 
 安装完成后，刷新浏览器页面即可看到桌宠。
@@ -73,13 +73,13 @@ dsh plugin --profile web add github:AcidGr/dsh-desktop-pet
 ```sh
 PROFILE="${DSH_HOME:-$HOME/.dsh}/profiles/web"
 mkdir -p "$PROFILE/plugins" "$PROFILE/node_modules/@dsh-profile"
-cp -r dsh-desktop-pet "$PROFILE/plugins/desktop-pet"
-ln -sfn ../../plugins/desktop-pet "$PROFILE/node_modules/@dsh-profile/desktop-pet"
+cp -r dsh-web-whale-maid "$PROFILE/plugins/whale-maid"
+ln -sfn ../../plugins/whale-maid "$PROFILE/node_modules/@dsh-profile/whale-maid"
 
 # 追加至 $PROFILE/cordis.patch.yml:
 # - insert:
-#     - id: desktop-pet
-#       name: '@dsh-profile/desktop-pet'
+#     - id: whale-maid
+#       name: '@dsh-profile/whale-maid'
 ```
 
 ---
@@ -99,7 +99,7 @@ ln -sfn ../../plugins/desktop-pet "$PROFILE/node_modules/@dsh-profile/desktop-pe
 ## 📂 项目结构
 
 ```
-dsh-desktop-pet/
+dsh-web-whale-maid/
 ├── assets/
 │   ├── pet_assets.json      # 内置 base64 资产包（精灵图与橱柜）
 │   ├── pet_sprite.png       # 8 动作高清重制精灵图（1024x2048）

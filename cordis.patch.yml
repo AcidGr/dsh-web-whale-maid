@@ -1,4 +1,4 @@
-# Bundle patch: mount the desktop pet plugin row.
+# Bundle patch: mount the whale-maid desktop pet plugin row.
 - insert:
-    - id: desktop-pet
-      name: 'dsh-desktop-pet'
+    - id: whale-maid
+      name: 'dsh-web-whale-maid'
