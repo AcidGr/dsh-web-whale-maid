@@ -1,0 +1,4 @@
+# Bundle patch: mount the desktop pet plugin row.
+- insert:
+    - id: desktop-pet
+      name: 'dsh-desktop-pet'

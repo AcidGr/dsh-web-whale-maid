@@ -1,0 +1,42 @@
+{
+  "name": "dsh-desktop-pet",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness Desktop Pet: Anime maid whale desktop pet with satiety system, 8 moods, thinking animations, persistent speech bubbles, mobile-adapted cupboard UI, and LLM-driven dialogues.",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    },
+    "compatibility": {
+      "dsh": ">=0.1.0"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "desktop-pet",
+    "anime",
+    "maid",
+    "web-ui",
+    "whale"
+  ]
+}
