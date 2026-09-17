@@ -22,6 +22,10 @@ Features LLM thinking and mood linkage, 30,000 Token satiety pool, persistent sp
   - **Permanent Bubble**: Speech bubbles and moods remain permanently on screen until the next LLM response arrives.
   - **Clicking Pet Body**: Opens the antique wooden maid cupboard modal.
   - **Clicking Speech Bubble**: Immediately dismisses the speech bubble and resets the pet back to standard standby (`idle`) mode.
+- **Sidebar Footer Toggle & Instant Dormant Sleep Mode**:
+  - Dedicated one-click toggle button rendered at the bottom of the DSH sidebar (`sidebar.footer.action` beside Settings), fully responsive across expanded and rail modes;
+  - Features an instant "Put to Sleep" button inside the cupboard header;
+  - Dormant mode completely unmounts the overlay DOM (zero screen occlusion) and cuts off all LLM session event watchers and Token consumption, with instant millisecond wake-up without page reloads.
 - **Satiety Reserve Pool (Tokens as Food)**:
   - 30,000 Token maximum capacity.
   - Four tiers of rice food items on the shelf:
