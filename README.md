@@ -8,6 +8,8 @@ An interactive, anime maid whale desktop pet plugin customized for the [DeepSeek
 
 Features LLM thinking and mood linkage, 30,000 Token satiety pool, persistent speech bubbles, mobile-responsive cupboard modal, 5-hour task awareness ledger, and dual-layer persistence.
 
+<img src="assets/preview.gif" width="720" alt="dsh-web-whale-maid">
+
 ---
 
 ## ✨ Features
